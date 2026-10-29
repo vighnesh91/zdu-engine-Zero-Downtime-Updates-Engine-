@@ -1,0 +1,23 @@
+# System Files
+.DS_Store
+Thumbs.db
+
+# Runtime Log & Verification Artifacts
+zdu-linux.conf
+zdu-macos.conf
+zdu-windows.json
+*.log
+/var/tmp/zdu-linux.*
+/private/tmp/zdu-macos.*
+evidence/
+sbom-*.json
+forensic-*.tar.gz
+forensic-*.zip
+forensic-*.p7m
+cluster-degraded.json
+cluster-results.json
+supply-chain-pin-report.json
+
+# Local Configuration overrides
+.env
+.secrets/
